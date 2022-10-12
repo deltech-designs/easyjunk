@@ -1,0 +1,43 @@
+@media(max-width: 768px){
+  
+   .about{
+    font-size: 3rem;
+   }
+
+   .intro{
+      padding: 8px;
+      font-size: 1rem;
+      width: 100%;
+   }
+
+   hr{
+    width: 90%;
+   }
+
+   .our-ex{
+    font-size: 20px;
+    font-weight: bold;
+   }
+
+   .inner-page{
+      width: 100%;
+      flex-direction: column;
+   }
+
+   .inner-page.expertise-container{
+      width: 100%;
+   }
+
+   .team-container{
+    /* display: block; */
+    width: 100%;
+   }
+   
+   .inner-team{
+      /* height: 90vh; */
+      display: flex;
+      /* grid-template-rows: 1fr/; */
+      flex-direction: column;
+   
+   }
+}

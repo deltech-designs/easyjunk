@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Request for Quote</title>
+
+    <!-- css link -->
+    <link rel="stylesheet" href="./style/style.css">
+    <link rel="stylesheet" href="./style/quote.css">
+    <link rel="stylesheet" href="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/css/bootstrap.css">
+    <link rel="stylesheet" href="/fontawesome-free-6.1.1-web/fontawesome-free-6.1.1-web/css/all.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css"/>
+</head>
+<body>
+    <nav class="navbar" style="background-color: #556b2f;">
+        <a href="index.html" class="navbar-brand">
+            <span>EASY JUNK REMOVAL</span>
+        </a>
+        
+        <div class="nav-bar">
+            <span class="close-btn">&times;</span>
+            <ul>
+                <li class="navbar-items">
+                    <a href="./about.html" class="navbar-link">About</a>
+                </li>
+                <li class="navbar-items">
+                    <a href="#" class="navbar-link">Rates & Services</a>
+                </li>
+                <li class="navbar-items">
+                    <a href="quote.html" class="navbar-link">Request a quote</a>
+                </li>
+                <li class="navbar-items">
+                    <a href="#" class="navbar-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+        <i class="fa fa-bars hide-bar"></i>
+    </nav>
+
+
+    
+    
+    <div class="contact-form">
+        <div class="img-container">
+            <img src="./img/Adekolapo ade.JPG" alt="logo" >
+        </div>
+
+
+        <div class="form-container">
+            <h2 class="heading">Request a quote</h2>
+            <!-- <p>Please use the form below to contact us</p> -->
+            <form action="#" method="POST">
+            <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" name="name" id="name">
+            </div>
+            <div class="form-group">
+                <label for="message">What day are you looking to get this done?
+                </label>
+                <input type="text" name="message" id="message">
+            </div>
+            <div class="form-group">
+                <label for="message">Please provide a list of what you need removed:</label>
+                <textarea name="message" id="message"></textarea>
+            </div>
+            <div class="form-group">
+                <label for="message">
+                    How did you hear about us?
+                </label>
+                <input type="text" name="message" id="message">
+            </div>
+            <div class="form-group">
+                <label for="message">
+                    How did you hear about us?
+                </label>
+                <input type="text" name="message" id="message">
+            </div>
+            <div class="form-group">
+                <label for="message">
+                    E-mail address:
+                </label>
+                <input type="text" name="message" id="message">
+            </div>
+            <div class="form-group">
+                <label for="message">Phone number:
+                </label>
+                <input type="text" name="message" id="message">
+            </div>
+            <div class="form-group">
+                <label for="message">
+                    Address(Please include city\zip):
+                </label>
+                <input type="text" name="message" id="message">
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Send" class="btn btn-dark">
+            </div>
+            </form>
+        </div>
+    </div>
+    
+
+    <footer class="footer">
+        <div class="footer-1">
+            <p>Email: easyjunkremoval@gmail.com</p>
+            <p>Portland Oregon United States </p>
+        </div>
+        <div class="footer-2">
+            <button onclick="topFunction()" id="myBtn" title="Go to top">
+                 <i class="fas fa-arrow-up"></i>
+            </button>
+        </div>
+    </footer>
+
+    <script src="./main.js"></script>
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script src="./bootstrap-5.0.2-dist/bootstrap-5.0.2-dist/js/bootstrap.js"></script>
+    <script>
+      AOS.init({
+        // offset: 400, 
+        duration: 1000
+      });
+    </script>
+</body>
+</html>

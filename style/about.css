@@ -1,0 +1,114 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
+
+
+:root{
+    --black: #556b2f;
+    --white: #ffffff;
+    --regular: 400;
+    --fw-medium: 600;
+    --fw-bold: 700;
+}
+
+*, *::before, *::after {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+
+
+
+.main-about{
+    width: 100%;
+    height: 100vh;
+    background-color: darkolivegreen;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.about{
+    font-size: 3rem;
+    color: var(--white);
+    font-weight: var(--fw-bold);
+}
+
+
+.intro{
+    text-align: center;
+    color: var(--white);
+}
+
+
+.past-work{
+    display: grid;
+    grid-template-columns: repeat(1, auto);
+    grid-gap: 3rem;
+    place-content: center;
+    justify-items: center;
+    gap: 2rem; 
+    width: 100%;
+    background-color: var(--black);
+    color: var(--white);
+    margin: auto; 
+}
+
+
+.inner-page{
+    display: flex;
+    justify-content: space-around;
+    gap: 1rem;
+    width: 80%;
+}
+
+
+.expertise-container{
+    width: 100%;
+}
+
+
+hr{
+    border-bottom: solid 3px var(--white);
+    width: 55%;
+    margin-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    /* border-top: ; */
+}
+
+.our-ex{
+    font-size: 25px;
+}
+
+
+.team-container{
+    padding: 1rem;
+}
+
+.team{
+    text-align: center;
+}
+
+.team h1{
+    font-size: 4rem;
+    font-weight: var(--fw-bold);
+    margin: 1rem 0rem;
+}
+
+.inner-team{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    place-items: center;
+    /* place-content: center; */
+    justify-items: center;
+    align-items: start;
+    gap: 2rem;
+    /* margin: 1rem 2rem; */
+}
+
+.inner-con-team{
+    background-color: var(--black);
+    color: var(--white);
+    border-radius: 5px;
+    padding: 1rem;
+    width: 22rem; 
+}
